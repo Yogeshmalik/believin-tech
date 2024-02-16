@@ -3,9 +3,9 @@ import React from "react";
 const OverlayHero = () => {
   return (
     <div className="relative bg-white">
-      <div className=" bg-[#E8F0F8] h-fit py-1 md:py-0 md:h-[60px] w-full px-6 sm:px-20">
+      <div className=" bg-[#E8F0F8] h-full py- lg:py-0 lg:h-[60px] w-full px-6 sm:px-20">
         {" "}
-        <p className="experts-in-pressure h-full flex flex-col md:flex-row items-center justify-center md:gap-x-8 mx-auto text-[#00509E] font-semibold text-sm text-center tracking-[0] leading-[22.5px] md:whitespace-nowrap py-6 md:py-0">
+        <p className="h-full overflow-hidden flex-wrap flex flex-col md:flex-row items-center justify-center md:gap-x-8 mx-auto text-[#00509E] font-semibold text-sm text-center tracking-[0] leading-[22.5px] lg:whitespace-nowrap py-6 lg:py-0">
           <span>
             Experts in pressure care, patient transfers and complex rehab
           </span>

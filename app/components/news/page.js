@@ -25,10 +25,10 @@ const posts = [
 
 export default function News() {
   return (
-    <div className="bg-] pb">
+    <div className="bg-] pt-4">
       <div className="mx-auto max-w-7xl pb-12 px-6 lg:px-8">
         <div className=" max-w-2xl text-left">
-          <h2 className="text-left text-lg md:text-[24px] font-bold leading-8 tracking-tight sm:text-xl">
+          <h2 className="lg:text-left text-center mx-auto text-lg md:text-[24px] font-bold leading-8 tracking-tight sm:text-xl">
             <span className="inline-flex items-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#CBE5FF] via-blue-300 to-[#75A5D6]">
                 Latest News

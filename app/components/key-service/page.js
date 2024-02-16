@@ -49,7 +49,7 @@ const brands = [
 
 export default function KeyService() {
   return (
-    <div className="bg-white pb-12 w-full">
+    <div className="bg-white pt-4 pb-12 w-full">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-center text-lg md:text-[24px] font-bold leading-8 tracking-tight sm:text-xl">
@@ -100,7 +100,7 @@ export default function KeyService() {
               key={brand.id}
               src={brand.bg}
               alt="brand"
-              className="h-6 md:h-8 w-auto mx-auto"
+              className="h-6 lg:h-8 w-auto mx-auto"
             />
           ))}
         </div>

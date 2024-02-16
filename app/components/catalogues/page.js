@@ -43,7 +43,7 @@ export default function Catalogues() {
     <div className="bg-[#F0F6FB] pb-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className=" max-w-2xl text-left">
-          <h2 className="text-left text-lg md:text-[24px] font-bold leading-8 tracking-tight sm:text-xl">
+          <h2 className="lg:text-left text-center mx-auto text-lg md:text-[24px] font-bold leading-8 tracking-tight sm:text-xl">
             <span className="inline-flex items-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 via-blue-600 to-[#002B64]">
                 Catalogues

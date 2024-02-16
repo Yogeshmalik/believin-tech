@@ -10,8 +10,8 @@ export default function Webinar() {
           src="/images/subtract.png"
         />
       </div>
-      <div className=" max-w-2x max-w-7x px-6 lg:px-8 flex md:flex-row flex-col  border- pt-16 w-full">
-        <h2 className="text-left text-lg md:text-[24px] font-bold leading-8 tracking-tight sm:text-xl">
+      <div className=" max-w-2x max-w-7x px-6 lg:px-8 flex md:flex-row flex-col   pt-16 w-full">
+        <h2 className="lg:text-left text-center mx-auto text-lg md:text-[24px] font-bold leading-8 tracking-tight sm:text-xl">
           <span className="inline-flex items-center text-left">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#CBE5FF] via-blue-300 to-[#75A5D6]">
               Upcoming Webinar
@@ -25,11 +25,11 @@ export default function Webinar() {
           </span>
         </h2>
       </div>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 flex md:flex-row flex-col  border- py-10 w-full ">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 flex lg:flex-row flex-col   py-10 w-full ">
         <img
           src="/images/webinar.png"
           alt=""
-          className="flex max-w-[360px] md:pb-0 pb-8"
+          className="flex w-full mx-auto lg:mx-0 max-w-[360px] md:pb-0 pb-8 mb-10"
         />
         <div className=" mx-auto flex flex-col max-w-2xl w-full lg:pb- my-auto">
           <p className="flex pb-4 text-left items-start text-[#fff] font-medium text-[12px]">

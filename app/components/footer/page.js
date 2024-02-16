@@ -136,9 +136,9 @@ export default function GlobalFooter() {
         </div>
         {/* <FooterSection /> */}
       </div>
-      <div className="xl:grid xl:grid-cols-4 mx-auto xl:gap-8 py-5 md:py-10 bg-white px-6 lg:px-36 items-start ">
+      <div className="xl:grid xl:grid-cols-4 mx-auto xl:gap-8 py-5 md:py-10 bg-white px-6 lg:px-36 items-start">
         <div className="md:mt-16 space-y-8 max-w-7xl xl:mt-0 bg-white">
-          <img src="/images/map.svg" alt="map" />
+          <img src="/images/map.svg" alt="map" className="mx-auto md:mx-0" />
         </div>
         <div className="mt-16 space-y-2 xl:mt-0">
           <div className="flex space-x-2">
@@ -213,7 +213,7 @@ export default function GlobalFooter() {
             <img src="/images/novis-logo-black.svg" alt="" className="flex" />
           </a>
         </div>
-        <div className="mt-8 flex md:order-1 md:mt-0 space-x-6">
+        <div className="mt-8 flex-wraz flex-col lg:flex-row lg:flex-nowrap flex md:order-1 md:mt-0 space-x-6">
           <p className="text-center text-[13px] font-bold leading-5 text-[#01438A]">
             &copy; 2022 All Rights Reserved
           </p>

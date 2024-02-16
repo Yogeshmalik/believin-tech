@@ -8,21 +8,21 @@ export default function Featured() {
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8 flex justify-between w-full">
         <div className="mx-auto md:flex justify-between grid max-w-2xl grid-cols-1 gap-x-12 gap-y-8 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className="flex flex-wra items-start justify-en gap-6 sm:gap-8 lg:contents">
-            <div className="w-full flex-auto lg:ml-auto lg:w-auto lg:flex-non">
+            <div className="w-full my-auto flex-auto lg:ml-auto lg:w-auto lg:flex-non">
               <img
                 src="/images/featured-img.png"
                 alt=""
-                className=" w-full md:w-[540px] md:h-[435px] max-w-3xl"
+                className=" w-full lg:w-[540px] lg:h-[435px] max-w-3xl"
               />
             </div>
           </div>
           <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 my-auto">
-            <p className="flex pb-4 text-[#75A5D6] font-medium text-[12px]">
+            <p className="flex pb-4 text-[#75A5D6] font-medium lg:text-[12px]">
               FEATURED PRODUCT
             </p>
             <h2 className="text-cente text-lg md:text-[28px] font-bold tracking-tight sm:text-xl max-w-[530px] w-full">
               <span className="inline-flex items-center">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 via-blue-600 to-[#002B64] leading-8 ">
+                <span className="bg-clip-text text-xl lg:text-[28px] text-transparent bg-gradient-to-r from-blue-700 via-blue-600 to-[#002B64] leading-8 ">
                   Etac Prio: Design with care, customise to user&apos;s ability.
                 </span>
               </span>
