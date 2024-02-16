@@ -1,12 +1,19 @@
 "use-client";
 
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 export default function CTA() {
   return (
     <div className="relative isolate overflow-hidden bg-[#F0F6FB] ">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex md:flex-row flex-col  border-t py-16 w-full border-[#BFD4E5]">
-        <img src="/images/cta-img.png" alt="" className="flex md:pb-0 pb-8" />
+        <Image
+          width={1000}
+          height={1000}
+          src="/images/cta-img.png"
+          alt=""
+          className="flex md:pb-0 pb-8 w-fit"
+        />
         <div className="mx-auto flex flex-grow max-w-2xl gap-x-8 gap-y-16 ">
           <div className="">
             <h2 className="text-center text-lg md:text-[24px] font-bold leading-8 tracking-tight sm:text-xl">

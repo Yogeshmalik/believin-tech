@@ -4,6 +4,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import Banner from "./banner/page";
+import Image from "next/image";
 
 const navigation = [
   { name: "About Us", href: "#" },
@@ -30,7 +31,9 @@ const Header = () => {
               <div className="flex w-full items-center justify-between md:w-auto">
                 <a href="#">
                   <span className="sr-only">Novis</span>
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     className="h-8 w-auto sm:h-16"
                     src="/images/novis-logo.png"
                     alt=""
@@ -57,7 +60,9 @@ const Header = () => {
                 <div className="hidden md:flex items-center my-auto">
                   <a href="#">
                     <span className="sr-only">Novis</span>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       className="h-8 w-auto sm:h-5 "
                       src="/images/search-icon.png"
                       alt="search"
@@ -84,7 +89,9 @@ const Header = () => {
               <div className="overflow-hidden rounded-lg opacity-100 bg-blue-800 shadow-md ring-1 ring-black ring-opacity-5">
                 <div className="flex items-center justify-between px-5 pt-4">
                   <div>
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       className="h-8 w-auto"
                       src="/images/novis-logo.png"
                       alt=""
@@ -135,7 +142,9 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <img
+        <Image
+          width={100}
+          height={100}
           src=""
           alt=""
           className="mt-10 opacity-0 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"

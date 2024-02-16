@@ -64,7 +64,9 @@ export default function KeyService() {
               key={post.id}
               className="relative isolate flex flex-col justify-center overflow-hidden bg-white max-w-[400px] h-[220px] rounded-lg"
             >
-              <img
+              <Image
+              width={100}
+              height={100}
                 src={post.bg}
                 alt=""
                 className="absolute inset-0 h-full w-full object-cover z-0"
@@ -96,7 +98,9 @@ export default function KeyService() {
         </h2>
         <div className="grid grid-cols-2 px-8 sm:grid-cols-3 md:flex justify-evenly py-10 gap-5 mx-auto">
           {brands.map((brand) => (
-            <img
+            <Image
+              width={100}
+              height={100}
               key={brand.id}
               src={brand.bg}
               alt="brand"

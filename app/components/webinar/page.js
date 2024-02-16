@@ -1,10 +1,14 @@
 "use-client";
 
+import Image from "next/image";
+
 export default function Webinar() {
   return (
     <div className="relative mx-auto w-full isolate overflow-hidden bg max-w-7xl">
       <div className="w-[70px] h-[17px] hidden md:flex">
-        <img
+        <Image
+          width={1000}
+          height={1000}
           className="w-[70px] h-[17px] absolute top-0 left-16"
           alt="Subtract"
           src="/images/subtract.png"
@@ -26,7 +30,9 @@ export default function Webinar() {
         </h2>
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex md:flex-row flex-col  border- py-10 w-full ">
-        <img
+        <Image
+          width={1000}
+          height={1000}
           src="/images/webinar.png"
           alt=""
           className="flex max-w-[360px] md:pb-0 pb-8"

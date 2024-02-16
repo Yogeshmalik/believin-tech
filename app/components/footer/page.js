@@ -1,4 +1,5 @@
-import FooterSection from "./footer";
+import Image from "next/image";
+// import FooterSection from "./footer";
 
 const navigation = {
   customerInfo: [
@@ -116,7 +117,9 @@ export default function GlobalFooter() {
               CONTACT US
             </h3>
             <div className="flex items-center space-x-3">
-              <img src="/images/phone.svg" alt="" />
+              <Image
+              width={100}
+              height={100} src="/images/phone.svg" alt="" />
               <p className="text-sm leading-6 text-gray-600">1300 738 885</p>
             </div>
             <p className="text-sm leading-6 underline text-blue-600">
@@ -130,7 +133,9 @@ export default function GlobalFooter() {
                   className="text-gray-400 hover:text-gray-500"
                 >
                   <span className="sr-only">{item.name}</span>
-                  <img src={item.icon} alt="" className="flex" />
+                  <Image
+              width={100}
+              height={100} src={item.icon} alt="" className="flex" />
                 </a>
               ))}
             </div>
@@ -140,11 +145,15 @@ export default function GlobalFooter() {
       </div>
       <div className="xl:grid xl:grid-cols-4 mx-auto xl:gap-8 py-5 md:py-10 w-full bg-white px-6 lg:px-8 items-start ">
         <div className="md:mt-16 space-y-8 max-w-7xl xl:mt-0 bg-white">
-          <img src="/images/map.svg" alt="map" />
+          <Image
+              width={100}
+              height={100} src="/images/map.svg" alt="map" />
         </div>
         <div className="mt-16 space-y-2 xl:mt-0">
           <div className="flex space-x-2">
-            <img src="/images/location.svg" alt="" />
+            <Image
+              width={100}
+              height={100} src="/images/location.svg" alt="" />
             <h3 className="text-sm md:text-[15px] font-bold leading-6 text-[#006FDE]">
               NSW
             </h3>
@@ -169,7 +178,9 @@ export default function GlobalFooter() {
         </div>
         <div className="mt-16 space-y-2 xl:mt-0">
           <div className="flex space-x-2 ">
-            <img src="/images/location.svg" alt="" />
+            <Image
+              width={100}
+              height={100} src="/images/location.svg" alt="" />
             <h3 className="text-sm md:text-[15px] font-bold leading-6 text-[#006FDE]">
               QLD
             </h3>
@@ -184,7 +195,9 @@ export default function GlobalFooter() {
         </div>
         <div className="mt-16 space-y-2 xl:mt-0">
           <div className="flex space-x-2">
-            <img src="/images/location.svg" alt="" />
+            <Image
+              width={100}
+              height={100} src="/images/location.svg" alt="" />
             <h3 className="text-sm md:text-[15px] font-bold leading-6 text-[#006FDE]">
               VIC
             </h3>
@@ -212,7 +225,9 @@ export default function GlobalFooter() {
         <div className="flex justify-center space-x-6 md:order-2">
           <a href="#" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Logo</span>
-            <img src="/images/novis-logo-black.svg" alt="" className="flex" />
+            <Image
+              width={100}
+              height={100} src="/images/novis-logo-black.svg" alt="" className="flex" />
           </a>
         </div>
         <div className="mt-8 flex md:order-1 md:mt-0 space-x-6">

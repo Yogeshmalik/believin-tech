@@ -1,4 +1,5 @@
 import { StarIcon } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 const timeline = [
   {
@@ -58,7 +59,9 @@ export default function Review() {
         </div>
       </div>
       <span className="h-1 mt-12 mb-5 flex w-full max-w-7xl border-b border-[#CBE5FF]" />
-      <img
+      <Image
+        width={100}
+        height={100}
         src="/images/review.svg"
         alt=""
         className="flex mx-auto pt-4 px-6 md:px-1"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const OverlayHero = () => {
@@ -9,13 +10,17 @@ const OverlayHero = () => {
           <span>
             Experts in pressure care, patient transfers and complex rehab
           </span>
-          <img
+          <Image
+            width={100}
+            height={100}
             className="hidden md:flex"
             alt="Subtract"
             src="/images/subtract-vector.png"
           />
           Outstanding customer service
-          <img
+          <Image
+            width={100}
+            height={100}
             className="hidden md:flex"
             alt="Subtract"
             src="/images/subtract-vector.png"
@@ -24,7 +29,9 @@ const OverlayHero = () => {
         </p>
       </div>
       <div className="w-[70px] h-[17px] hidden md:flex">
-        <img
+        <Image
+          width={100}
+          height={100}
           className="w-[70px] h-[17px] absolute bottom-0 left-16"
           alt="Subtract"
           src="/images/subtract.png"

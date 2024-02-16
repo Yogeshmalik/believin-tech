@@ -4,6 +4,7 @@ import {
   ChatBubbleBottomCenterTextIcon,
   EnvelopeIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const transferFeatures = [
   {
@@ -41,7 +42,9 @@ export default function Specialists() {
     <div className="overflow-hidden bg-white py-16  min-w-full relative">
       <div className="relativ mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">
         <div className="min-w-full">
-          <img
+          <Image
+              width={100}
+              height={100}
             className="absolute right-0 border-4 hidden lg:block"
             src="/images/feedback.svg"
             alt="doctor with old lady"
@@ -82,7 +85,9 @@ export default function Specialists() {
           </div>
 
           <div className="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
-            <img
+            <Image
+              width={100}
+              height={100}
               className="relative mx-auto md:w-[662px] -[390px] "
               //   width={662}
               //   height={390}
