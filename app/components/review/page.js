@@ -53,7 +53,7 @@ export default function Review() {
                 the chair yesterday and it is perfect. Quick delivery and a
                 great product.
               </p>
-              <p className="flex text-[#75A5D6]">Jeanette O'Brien</p>
+              <p className="flex text-[#75A5D6]">Jeanette O&apos;Brien</p>
             </div>
           ))}
         </div>

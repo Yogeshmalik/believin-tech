@@ -25,7 +25,7 @@ export default function Featured() {
             <h2 className="text-cente text-lg md:text-[28px] font-bold tracking-tight sm:text-xl max-w-[530px] w-full">
               <span className="inline-flex items-center">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 via-blue-600 to-[#002B64] leading-8 ">
-                  Etac Prio: Design with care, customise to user's ability.
+                  Etac Prio: Design with care, customise to user&apos;s ability.
                 </span>
               </span>
             </h2>
