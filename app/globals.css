@@ -3,31 +3,56 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --admiral-blue: rgba(0, 80, 158, 1);
+  --alice-blue: rgba(240, 246, 251, 1);
+  --azureish-white: rgba(209, 228, 245, 1);
+  --charcoal: rgba(37, 37, 37, 1);
+  --cloud: rgba(232, 240, 248, 1);
+  --cobalt: rgba(0, 111, 222, 1);
+  --denim: rgba(0, 43, 100, 1);
+  --eclipse-grey: rgba(62, 62, 62, 1);
+  --iceberg: rgba(117, 165, 214, 1);
+  --midnight-blue: rgba(1, 67, 138, 1);
+  --navy: rgba(1, 51, 105, 1);
+  --pale-blue: rgba(203, 229, 255, 1);
+  --shadow: rgba(75, 75, 75, 1);
+  --white: rgba(255, 255, 255, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+*{
+  margin: 0;
+}
+
+.mainPage, .news-cta{
+  background: linear-gradient(180deg, rgb(0, 80, 158) 0%, rgb(0, 43, 100) 100%);
+}
+
+
+.hero {
+  background-image: url('/images/hero-bg.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  height: 730px; 
+  width: 100%;
+  /* margin: 0 !important;
+  padding: 0 !important; */
+}
+
+/* Hide background image on medium screens */
+@media (max-width: 768px) {
+  .hero {
+    background-image: none;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Hide background image on small screens */
+@media (max-width: 640px) {
+  .hero {
+    background-image: none;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bannerText{
+  color: #CBE5FF;
 }
