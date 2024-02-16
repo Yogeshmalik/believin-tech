@@ -29,14 +29,11 @@
 
 
 .hero {
-  background-image: url("/images/hero-bg.png"); 
+  background-image: url("/images/hero-bg.svg"); 
   background-size: cover;
-  background-position: center;
-  height: 100vh; 
-  height: 730px; 
-  width: 100%;
-  /* margin: 0 !important;
-  padding: 0 !important; */
+  background-position: center top;
+  height: 750px; 
+  /* width: 100%; */
 }
 
 /* Hide background image on medium screens */

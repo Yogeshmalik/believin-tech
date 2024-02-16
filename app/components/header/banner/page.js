@@ -10,7 +10,7 @@ export default function Banner() {
   return (
     <div className="bg-[#013369] bg-opacity-35 md:h-[46px]">
       <div className="mx-auto min-w-full max-w-7xl px-6 py-2 sm:px-20 lg:px-">
-        <div className="flex flex-wrap items-center justify-between">
+        <div className="flex flex-wrap items-center max-w-7xl mx-auto justify-between">
           <div className="flex w-0 flex-1 items-center">
             <span className="flex rounded-lg  pr-2">
               <img

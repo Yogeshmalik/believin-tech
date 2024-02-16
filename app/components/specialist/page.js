@@ -38,7 +38,7 @@ const communicationFeatures = [
 
 export default function Specialists() {
   return (
-    <div className="overflow-hidden bg-white py-16  min-w-full relative">
+    <div className="overflow-hidden bg-white py-8 md:py-16  min-w-full relative">
       <div className="relativ mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">
         <div className="min-w-full">
           <img

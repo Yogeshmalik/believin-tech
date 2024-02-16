@@ -1,4 +1,3 @@
-
 const navigation = {
   customerInfo: [
     { name: "Community Rental Request", href: "#" },
@@ -137,7 +136,7 @@ export default function GlobalFooter() {
         </div>
         {/* <FooterSection /> */}
       </div>
-      <div className="xl:grid xl:grid-cols-4 mx-auto xl:gap-8 py-5 md:py-10 w-full bg-white px-6 lg:px-8 items-start ">
+      <div className="xl:grid xl:grid-cols-4 mx-auto xl:gap-8 py-5 md:py-10 bg-white px-6 lg:px-36 items-start ">
         <div className="md:mt-16 space-y-8 max-w-7xl xl:mt-0 bg-white">
           <img src="/images/map.svg" alt="map" />
         </div>
@@ -197,7 +196,7 @@ export default function GlobalFooter() {
           </ul>
         </div>
       </div>
-      <p className="flex mx-a text-[#4B4B4B] max-w-7x px-6 py-10 w-full text-[13px] items-center my-auto h-full bg-[#E8F0F8] ">
+      <p className="flex mx-a lg:px-36 text-[#4B4B4B] max-w-7x px-6 py-10 w-full text-[13px] items-center my-auto h-full bg-[#E8F0F8] ">
         Whilst every effort is made to provide information that is accurate,
         occasionally, one or more items on our website may be incorrectly
         priced. Where a product is listed at an incorrect price due to

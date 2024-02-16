@@ -19,11 +19,11 @@ const Header = () => {
   return (
     <div className="relative md:overflow-hidden md:w-full z-40 bg- hero mx-auto">
       <Banner />
-      <div className="relative pb-16 pt-6 sm:pb-24">
+      <div className="relative pb-16 pt-6 sm:pb-24 max-w-7xl mx-auto">
         {/* Nav Bar */}
         <Popover>
           <nav
-            className="relative md:mx-auto min-w-full flex max-w-7xl md:items-center justify-between px-6 md:px-20"
+            className="relative md:mx-auto min-w-full flex max-w-7xl md:items-center justify-between px-6 md:px-0"
             aria-label="Global"
           >
             <div className="flex flex-1 md:w-full justify-between items-cente items-end">
@@ -114,7 +114,7 @@ const Header = () => {
           </Transition>
         </Popover>
       </div>
-      <div className="mx-auto md:flex -z-10 absolute xl:static top-72 max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-20 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8 px-6 lg:px-20">
+      <div className="mx-auto md:flex -z-10 absolute xl:static top-72 max-w-7xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-20 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8 px-6 lg:px-28">
         <h1 className="max-w-[500px] w-full text-xl md:text-[26px] font-bold tracking-normal text-white lg:col-span-2 xl:col-auto font-[inter  pt-8 md:pt-24">
           Committed to the Australian Pressure Care Industry and Community
         </h1>
