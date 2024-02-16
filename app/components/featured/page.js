@@ -9,9 +9,7 @@ export default function Featured() {
         <div className="mx-auto md:flex justify-between grid max-w-2xl grid-cols-1 gap-x-12 gap-y-8 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className="flex flex-wra items-start justify-en gap-6 sm:gap-8 lg:contents">
             <div className="w-full flex-auto lg:ml-auto lg:w-auto lg:flex-non">
-              <Image
-              width={100}
-              height={100}
+              <img
                 src="/images/featured-img.png"
                 alt=""
                 className=" w-full md:w-[540px] md:h-[435px] max-w-3xl"
@@ -46,12 +44,8 @@ export default function Featured() {
             </div>
           </div>
           <div className="flex w-fit space-x-3">
-            <Image
-              width={100}
-              height={100} src="/images/arrow-left.svg" alt="left" className=" w-full" />
-            <Image
-              width={100}
-              height={100} src="/images/arrow-right.svg" alt="left" className=" w-full" />
+            <img src="/images/arrow-left.svg" alt="left" className=" w-full" />
+            <img src="/images/arrow-right.svg" alt="left" className=" w-full" />
           </div>
         </div>
       </div>

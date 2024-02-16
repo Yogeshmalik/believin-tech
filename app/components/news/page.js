@@ -49,9 +49,7 @@ export default function News() {
               className="relative mx-auto isolat flex flex-col justify-center overflow-hidden bg- max-w-[360px] h-[220px rounded-lg 
                 shadow-m flex h-full"
             >
-              <Image
-              width={100}
-              height={100}
+              <img
                 src={post.bg}
                 alt=""
                 className="absolut inset-0 h-full w-full object-cover z-0"

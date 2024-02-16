@@ -1,7 +1,5 @@
 "use-client";
 
-import Image from "next/image";
-
 const links = [
   { name: "Store Locator", icon: "/images/location.png" },
   { name: "Resources", icon: "" },
@@ -15,10 +13,8 @@ export default function Banner() {
         <div className="flex flex-wrap items-center justify-between">
           <div className="flex w-0 flex-1 items-center">
             <span className="flex rounded-lg  pr-2">
-              <Image
-                width={1000}
-                height={1000}
-                className="h-8 w-fit sm:h-5 "
+              <img
+                className="h-8 w-auto sm:h-5 "
                 src="/images/ndis.png"
                 alt=""
               />
@@ -33,9 +29,7 @@ export default function Banner() {
             <div className="gri grid-cols- flex gap-x-8 gap-y-6 text-sm font-light leading-7  bannerText sm:grid-cols-2 md:flex lg:gap-x-10">
               {links.map((link) => (
                 <a key={link.name} href={"#"}>
-                  <Image
-                    width={100}
-                    height={100}
+                  <img
                     aria-hidden="true"
                     className="px-1 inline-flex items-center"
                     src={link.icon}
@@ -48,9 +42,7 @@ export default function Banner() {
               type="button"
               className="inline-flex items-center gap-x-2 rounded-sm bg-gray-200 px-2.5 py-1 text-sm text-[#002B64] shadow-sm hover:bg-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500"
             >
-              <Image
-                width={100}
-                height={100}
+              <img
                 className="h-8 w-auto sm:h-5 "
                 src="/images/cart.png"
                 alt=""

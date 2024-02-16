@@ -64,9 +64,7 @@ export default function Catalogues() {
               className="relative mx-auto isolat flex flex-col justify-center overflow-hidden bg- max-w-[360px] h-[220px rounded-lg 
                 shadow-m flex h-full"
             >
-              <Image
-                width={100}
-                height={100}
+              <img
                 src={post.bg}
                 alt=""
                 className="absolut inset-0 h-full w-full object-cover z-0"
@@ -82,16 +80,14 @@ export default function Catalogues() {
                     {post.cat}
                     {/* {catalogue.cat} */}
                   </a>
-                  <Image
-                    width={100}
-                    height={100}
+                  <img
                     src="/images/blue-arrow-right.svg"
                     alt="left"
-                    className=" w-fit"
+                    className=" w-ful"
                   />
                 </div>
               </div>
-              <p className="block text-[#006FDE] text-[15px]">August 2022</p>
+                <p className="block text-[#006FDE] text-[15px]">August 2022</p>
               {/* ))} */}
             </article>
           ))}
